@@ -12,3 +12,5 @@ Jag tänker att när jag har tittat färdigt på videosarna kan jag dela upp pro
 
 Jag tänker att det vore bra ifall jag börjar med att göra Spelplanen och därefter är det nog bra att koda "rektangarena".
 Sedan tänker jag koda bollen och hur bollen ska interagera med rektangarna. Jag tänker att ifall jag hinner med så kanske jag även hinner göra en "bot".
+
+Idag har jag mest kollat på videos.
