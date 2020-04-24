@@ -3,14 +3,16 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class Graphics extends Canvas implements Runnable {
-    public String title = "Graphics";
-    private int width = 0;
-    private int height = 0;
+    int x, y;
+    int x1 = 400;
+    int y1 = 400;
+    double angle = 0;
+    
 
-    private JFrame frame;
-    private BufferedImage image;
-
-    public Graphics(int i, int i1, int i2) {
+    public Graphics(int WIDTH, int HEIGHT, int scale) {
+        this.width = WIDTH;
+        this.height = HEIGHT;
+        this.scale = scale;
     }
 
     public void start() {

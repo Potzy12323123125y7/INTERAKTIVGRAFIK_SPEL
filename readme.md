@@ -20,3 +20,8 @@ Idag har jag mest kollat på videos.
 Idag sa Magnus något om att jag inte skulle kolla på tutorials. Därför har jag inte kollat på videos. Jag vet inte ifall det är ok att kolla på videos eller ifall det bara inte är okej att kopiera från tutorials.
 Datorn var också väldigt högljud idag typ 70 decibel, så jag var lite rädd för att använda den. Jag prövade att starta om den och efter 3-4 gånger så fungerade den bra. 
 Jag skrev lite kod, men jag vet ärligt talat inte ifall jag kommer kunna få ihop någon färdig produkt känns som att det är väldigt mycket mer som behövs kodas.
+
+04-24
+Idag har jag inte kodat något för att jag har kollat på program på min dator och försökt förså vad som händer. 
+Jag börjar komma ihåg hur grafik fungerar (tror jag). Jag tänker att jag fixar spelplanen innan nästa programmeringslektion. 
+Annars tror jag inte det kommer att gå ihop med tiden. Jag ska ta bort alla klasser och börja om på nytt för jag vet inte riktigt vad det är jag har gjort hittills
