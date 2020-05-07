@@ -37,7 +37,16 @@ class Paddle2 {
         }
 
     }
+    /*nivå två
 
+       public void keyReleased(KeyEvent e){
+
+        if(e.getKeyCode() == e.VK_W){
+            setYDirection(1);
+        }
+        if(e.getKeyCode() == e.VK_S){
+            setYDirection(-1);
+*/
     public void setXDirection(int xdir) {
         xDirection = xdir;
     }
@@ -50,7 +59,7 @@ class Paddle2 {
         return boundingBox;
     }
 
-    public void update(){
+    public void update(int i){
         boundingBox.x += xDirection;
         if(boundingBox.x <= 0) {
             boundingBox.x = 0;

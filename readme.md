@@ -30,4 +30,6 @@ Annars tror jag inte det kommer att gå ihop med tiden. Jag ska ta bort alla kla
 Idag märkte jag att de flesta hade tagit Magnus kod och därför tänkte jag att det vore en bra idé ifall jag också gjorde det.
 Eftersom att jag inte kom någon vart när jag försökte skriva min kod själv så tänkte jag att jag iallafall skulle få ihop något.
 Jag gjorde en till paddle eller som jag kallade dem "rectangle" jag har också gjort att de är på fixade platser så att de inte kan fara runt på spelplanen. 
-Känns lite som att rektangeln som man styr med w och s är lite seg och tänker att jag ska försöka fixa det.
+Känns lite som att rektangeln som man styr med w och s är lite seg och tänker att jag ska försöka fixa det. 
+På något sätt löstes problemet när jag lade in en int parameter i update ("paddle2.update(1);" isället för .update();).
+Rektangeln för sig bättre just nu och det är lättare att styra och inte lika hackig.
