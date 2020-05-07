@@ -35,3 +35,4 @@ På något sätt löstes problemet när jag lade in en int parameter i update ("
 Rektangeln för sig bättre just nu och det är lättare att styra och inte lika hackig.
 Det finns något slags bug när rektanglarna nuddar nedredelen av grafikrutan. Jag ska försöka kolla på varför det händer.
 (Bugget hade något med boundingbox att göra, bugget uppstod eftersom att jag ändrade storleken på rektanglarna.)
+Ska försöka arbeta lite hemma med mitt spel eftersom att jag känner mig lite bakom alla andra.
