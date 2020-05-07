@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 
-class Paddle {
+class Paddle2 {
     private int xDirection;
     private int yDirection;
     private int[] pixels;
@@ -10,7 +10,7 @@ class Paddle {
     private int width = 20;
     private int height = 40;
 
-    public Paddle(int x, int y, int col){
+    public Paddle2 (int x, int y, int col){
         boundingBox = new Rectangle(x, y, width, height);
         pixels = new int[width*height];
         for (int i = 0 ; i < pixels.length ; i++) {
@@ -19,20 +19,20 @@ class Paddle {
     }
 
     public void keyPressed(KeyEvent e){
-        if(e.getKeyCode() == e.VK_UP){
+        if(e.getKeyCode() == e.VK_W){
             setYDirection(-2);
         }
-        if(e.getKeyCode() == e.VK_DOWN){
+        if(e.getKeyCode() == e.VK_S){
             setYDirection(2);
         }
     }
 
     public void keyReleased(KeyEvent e){
 
-        if(e.getKeyCode() == e.VK_UP){
+        if(e.getKeyCode() == e.VK_W){
             setYDirection(0);
         }
-        if(e.getKeyCode() == e.VK_DOWN){
+        if(e.getKeyCode() == e.VK_S){
             setYDirection(0);
         }
 

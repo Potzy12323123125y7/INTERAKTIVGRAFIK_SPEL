@@ -1,4 +1,4 @@
 import javax.swing.*;
 
-public class Renderer  extends JPanel {
+public class Renderer extends JPanel {
 }
