@@ -33,3 +33,5 @@ Jag gjorde en till paddle eller som jag kallade dem "rectangle" jag har också g
 Känns lite som att rektangeln som man styr med w och s är lite seg och tänker att jag ska försöka fixa det. 
 På något sätt löstes problemet när jag lade in en int parameter i update ("paddle2.update(1);" isället för .update();).
 Rektangeln för sig bättre just nu och det är lättare att styra och inte lika hackig.
+Det finns något slags bug när rektanglarna nuddar nedredelen av grafikrutan. Jag ska försöka kolla på varför det händer.
+(Bugget hade något med boundingbox att göra, bugget uppstod eftersom att jag ändrade storleken på rektanglarna.)
