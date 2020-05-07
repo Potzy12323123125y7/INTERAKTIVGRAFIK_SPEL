@@ -25,3 +25,9 @@ Jag skrev lite kod, men jag vet ärligt talat inte ifall jag kommer kunna få ih
 Idag har jag inte kodat något för att jag har kollat på program på min dator och försökt förså vad som händer. 
 Jag börjar komma ihåg hur grafik fungerar (tror jag). Jag tänker att jag fixar spelplanen innan nästa programmeringslektion. 
 Annars tror jag inte det kommer att gå ihop med tiden. Jag ska ta bort alla klasser och börja om på nytt för jag vet inte riktigt vad det är jag har gjort hittills
+
+05-07
+Idag märkte jag att de flesta hade tagit Magnus kod och därför tänkte jag att det vore en bra idé ifall jag också gjorde det.
+Eftersom att jag inte kom någon vart när jag försökte skriva min kod själv så tänkte jag att jag iallafall skulle få ihop något.
+Jag gjorde en till paddle eller som jag kallade dem "rectangle" jag har också gjort att de är på fixade platser så att de inte kan fara runt på spelplanen. 
+Känns lite som att rektangeln som man styr med w och s är lite seg och tänker att jag ska försöka fixa det.
