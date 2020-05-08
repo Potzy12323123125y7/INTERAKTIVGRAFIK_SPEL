@@ -3,6 +3,7 @@ import java.awt.Graphics;
 import java.util.Random;
 
 public class Ball {
+    int p1Score, p2Score;
     private int xDirection, yDirection;
     private int[] pixels;
     private Rectangle boundingBox;
@@ -67,8 +68,10 @@ public class Ball {
         if(boundingBox.intersects(r)) {
             if (getXDirection() > 0 && Math.abs(r.x - (boundingBox.x + boundingBox.width)) <= getXDirection()) {
                 setXDirection(-1);
+                p1Score++;
             } else if (getXDirection() < 0 && Math.abs(r.x + r.width - boundingBox.x) <= -getXDirection()) {
                 setXDirection(+1);
+                p2Score++;
             } else if (getYDirection() > 0 && Math.abs(r.y - (boundingBox.y + boundingBox.height)) <= getYDirection()) {
                 setYDirection(-1);
             } else if (getYDirection() < 0 && Math.abs(r.y + r.height - boundingBox.y) <= -getYDirection()) {
@@ -84,12 +87,14 @@ public class Ball {
         //Bounce the ball when edge is detected
         if (boundingBox.x <= 0) {
             setXDirection(+1);
+            p2Score++;
         }
-        if (boundingBox.x >= 385) {
+        if (boundingBox.x >= 390) {
             setXDirection(-1);
+            p1Score++;
         }
         if (boundingBox.y <= 0) setYDirection(+1);
-        if (boundingBox.y >= 285) setYDirection(-1);
+        if (boundingBox.y >= 290) setYDirection(-1);
     }
 
     public void update(Rectangle r) {
