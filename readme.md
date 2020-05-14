@@ -38,5 +38,9 @@ Det finns något slags bug när rektanglarna nuddar nedredelen av grafikrutan. J
 Ska försöka arbeta lite hemma med mitt spel eftersom att jag känner mig lite bakom alla andra.
 
 05-08
-Jag håller på och tänker på hur poäng systemet ska fungera. Googlade runt lite och fungderade på hur koden kunde se ut. Men jag kom inte fram till något. 
-Jag gjorde också något till men jag har glömt bort (det var inget viktigt).
+Jag håller på och tänker på hur poäng systemet ska fungera. Googlade runt lite och funderade på hur koden kunde se ut. Men jag kom inte fram till något. 
+Jag gjorde också något till men jag har glömt bort (det var inget viktigt). 
+
+05-14
+Försökte använda g.drawString men det fungerade inte. Funderade på ifall jag kunde öppna en ny GUI som håller reda på scores och
+så har jag en annan där man spelar. Det borde fungera tycker jag och det kanske inte blir lika fint.

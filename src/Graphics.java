@@ -18,6 +18,8 @@ public class Graphics extends Canvas implements Runnable {
     private String title = "Graphics";
     private int width;
     private int height;
+    static int p2Score, p1Score;
+
 
     private JFrame frame;
     private BufferedImage image;
@@ -37,6 +39,7 @@ public class Graphics extends Canvas implements Runnable {
         this.width = w;
         this.height = h;
         this.scale = scale;
+
         image = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
 
         pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
@@ -77,10 +80,10 @@ public class Graphics extends Canvas implements Runnable {
         g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
         g.dispose();
         bs.show();
+
     }
 
     private void update() {
-
         b.update(paddle.getBoundingBox());
         paddle.update();
         b.update(paddle2.getBoundingBox());
@@ -91,6 +94,7 @@ public class Graphics extends Canvas implements Runnable {
         running = true;
         thread = new Thread(this);
         thread.start();
+
     }
 
     public synchronized void stop() {

@@ -1,9 +1,8 @@
 import java.awt.*;
-import java.awt.Graphics;
 import java.util.Random;
 
 public class Ball {
-    int p1Score, p2Score;
+    private int p1Score, p2Score;
     private int xDirection, yDirection;
     private int[] pixels;
     private Rectangle boundingBox;
@@ -80,7 +79,8 @@ public class Ball {
         }
     }
 
-    public void move() {
+    public int move() {
+
         boundingBox.x += xDirection;
         boundingBox.y += yDirection;
         System.out.println();
@@ -95,6 +95,14 @@ public class Ball {
         }
         if (boundingBox.y <= 0) setYDirection(+1);
         if (boundingBox.y >= 290) setYDirection(-1);
+        return 0;
+    }
+    public int getP1Score() {
+        return p1Score;
+    }
+
+    public int getP2Score() {
+        return p2Score;
     }
 
     public void update(Rectangle r) {
