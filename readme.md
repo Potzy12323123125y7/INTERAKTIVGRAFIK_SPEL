@@ -45,3 +45,5 @@ Jag gjorde också något till men jag har glömt bort (det var inget viktigt).
 Försökte använda g.drawString men det fungerade inte. Funderade på ifall jag kunde öppna en ny GUI som håller reda på scores och
 så har jag en annan där man spelar. Det borde fungera tycker jag och det kanske inte blir lika fint.
 Försökte göra ett nytt GUI fönster som då skulle hålla koll på poängsystemet. Jag tror att jag borde få ihop det under nästa lektion.
+
+05-15
