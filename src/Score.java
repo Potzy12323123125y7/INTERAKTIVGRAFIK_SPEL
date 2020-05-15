@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Score extends JFrame {
     private int width2;
@@ -15,6 +16,7 @@ public class Score extends JFrame {
         this.scale2 = scale2;
 
         frame2 = new JFrame();
+        setBounds(200, 200,200,200);
         frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Dimension size = new Dimension(scale2*width2, scale2*height2);
         frame2.setVisible(true);
@@ -23,7 +25,10 @@ public class Score extends JFrame {
         setMinimumSize(size);
         frame2.setTitle(title);
         frame2.pack();
+        BufferedImage image = new BufferedImage(w2, h2, BufferedImage.TYPE_INT_ARGB);
+        
     }
+
 
     public static void start() {
 

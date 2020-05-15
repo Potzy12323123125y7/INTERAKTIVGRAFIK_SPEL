@@ -47,3 +47,7 @@ så har jag en annan där man spelar. Det borde fungera tycker jag och det kansk
 Försökte göra ett nytt GUI fönster som då skulle hålla koll på poängsystemet. Jag tror att jag borde få ihop det under nästa lektion.
 
 05-15
+Idag har jag försökt göra en socreboard med hjälp av GUI. Det har gått okej men jag har inte riktigt fått något resultat förutom att en nytt GUI fönster öppnas.
+Problemet som jag har är att fönstret alltid öppnas ihop draget oavsett vad jag gör. Jag tror det kan bero på att allt innuti Score.java är i en "public class Score extends JFrame"
+Jag vet inte riktgit varför det har blivit så här. Jag tänker att det borde vara möjligt att göra en ny GUI som håller koll på poäng systemet och sedan spelar man på en annan GUI. Jag har ett annant problem och det är att 
+Updatera texten eller asså poängen. Jag är inte helt säker på hur det här ska gå till. Men jag har hittat en tråd och jag den kanske kan hjälpa mig med mitt problem. 
