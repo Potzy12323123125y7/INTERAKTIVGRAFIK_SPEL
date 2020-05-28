@@ -1,5 +1,5 @@
 #Tennis/Pong
-
+Postmortem finns i wiki
 
 ## Delar
 Jag tänker att jag börjar kolla på några videos (tutorials) så att jag kan få en överblick om hur någon slags kod för hur mitt spel ska kunna fungera.
