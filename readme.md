@@ -1,5 +1,7 @@
 #Tennis/Pong
+
 Postmortem finns i wiki
+https://github.com/Potzy12323123125y7/INTERAKTIVGRAFIK_SPEL/wiki/Post-Mortem
 
 ## Delar
 Jag tänker att jag börjar kolla på några videos (tutorials) så att jag kan få en överblick om hur någon slags kod för hur mitt spel ska kunna fungera.
