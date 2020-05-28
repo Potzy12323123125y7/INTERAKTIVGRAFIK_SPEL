@@ -1,6 +1,6 @@
 #Tennis/Pong
 
-Postmortem finns i wiki (Inte klar)
+Postmortem finns i wiki 
 https://github.com/Potzy12323123125y7/INTERAKTIVGRAFIK_SPEL/wiki/Post-Mortem
 
 ## Delar
